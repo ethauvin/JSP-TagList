@@ -2,13 +2,13 @@
 ActiveGroup=JSP - Directives
 
 // JSP Tag List by Erik C. Thauvin (erik@thauvin.net)
-// Version 1.0.1 - 2001-02-01
+// Version 1.0.2 - 2001-03-15
 // $Id$
 [Tag Group - JSP - Directives]
 0="Comment :UEDS:<%--  ...  --%>"
 1="Declaration :UEDS:<%!  ...  %>"
 2="Expression :UEDS:<%=  ...  %>"
-3="Include :UEDS:<%@ include page=" ... " %>"
+3="Include :UEDS:<%@ include file=" ... " %>"
 4="Page :UEDS:<%@ page import=" ... " errorPage="" isErrorPage="" isThreadSafe="" contentType="" %>"
 5="Scriptlet :UEDS:<%  ...  %>"
 6="Tag Library :UEDS:<%@ taglib uri=" ... " prefix="" %>"
