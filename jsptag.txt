@@ -1,0 +1,39 @@
+[TagList]
+ActiveGroup=JSP - Actions
+
+// JSP Tag List by Erik C. Thauvin (erik@thauvin.net)
+// Version 1.0 - 2001-02-01
+// $Id$
+[Tag Group - JSP - Directives]
+0="Comment :UEDS:<%--  ...  --%>"
+1="Declaration :UEDS:<%!  ...  %>"
+2="Expression :UEDS:<%=  ...  %>"
+3="Include :UEDS:<%@ include page=" ... " %>"
+4="Page :UEDS:<%@ page import=" ... " errorPage="" isErrorPage="" isThreadSafe="" contentType="" %>"
+5="Scriptlet :UEDS:<%  ...  %>"
+6="Tag Library :UEDS:<%@ taglib uri=" ... " prefix="" %>"
+
+[Tag Group - JSP - Actions]
+0="Use Bean :UEDS:<jsp:useBean id="" class=" ... " scope="page"/>"
+1="Set Bean Property :UEDS:<jsp:setProperty name="" property=" ... " value=""/>"
+2="Get Bean Property :UEDS:<jsp:getProperty name="" property=" ... "/>"
+3="Include :UEDS:<jsp:include page=" ... "/>"
+4="Forward :UEDS:<jsp:forward page=" ... "/>"
+5="Plugin :UEDS:<jsp:pluging type="" code="" codebase=""/> ... </jsp:plugin>"
+6="Plugin Parameters :UEDS:<jsp:params> ... </jsp:params>"
+7="Plugin Parameter :UEDS:<jsp:param name=" ... " value=""/>"
+
+[Tag Group - JSP - Objects]
+0="application :UEDS:application"
+1="config :UEDS:config"
+2="out :UEDS:out"
+3="page :UEDS:page"
+4="pageContext :UEDS:pageContext"
+5="request :UEDS:request"
+6="response :UEDS:response"
+7="session :UEDS:session"
+
+[Group List]
+0=JSP - Directives
+1=JSP - Actions
+2=JSP - Objects
